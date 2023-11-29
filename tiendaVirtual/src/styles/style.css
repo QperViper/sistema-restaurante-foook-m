@@ -1,0 +1,164 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap'); 
+body{
+  background-color: #fef9ee;
+  font-family: 'Bitter', serif;
+}
+
+/* DISEÑO sección carrito*/
+.section-carrito{
+  position: absolute;
+  padding-top: 800px;
+}
+/* DISEÑO GENERAL*/
+h1{
+  text-align: center;
+  padding-top: 10px;
+  border-bottom: 2px solid #000000;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+header{
+  padding-top: 20px;
+}
+
+.carritoC{
+  position:relative;
+}
+.contenido{
+  background-color: #fef9ee;
+  border-radius: 15px;
+  text-align: center;
+  
+}
+.contenido div{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.contenido div img{
+  border-radius: 10px;
+  width: 900px;
+}
+
+.contenido .row{
+  padding: 0 10px 10px 10px ;
+}
+.section-portada{
+  background-color:#423627;
+  margin: 0 210px 0 210px;
+  border-radius: 15px;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 150px;
+
+}
+
+
+.categoria_sub{
+  background-color:#382c1e;
+  color:#e6e6e6;
+  border-radius: 5px;
+
+}
+
+
+.section-portada a {
+
+position: absolute;
+left: 600px;
+bottom: 250px;
+text-decoration: none;
+color: #f3f1eeaf;
+font-size: 30px;
+background-color: rgba(82, 64, 39, 0.733);
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 20px;
+padding-left: 20px;
+border-radius: 5px;
+}
+
+.section-portada a:hover{
+  background-color: rgba(196, 186, 172, 0.733);
+  color: #2c261bd2;
+  
+}
+
+footer .contenido{
+  position: relative;
+  font-size: 20px;
+  margin-left: 650px ;
+  bottom: 300px;
+  padding-right: 300px;
+}
+.section-map{
+  position: relative;
+  background-color:#382c1e;
+  margin: 0 720px 30px 10px;
+  border-radius: 15px;
+  padding: 10px 0 5px 10px;
+  
+}
+.section-map iframe{
+  border-radius: 10px;
+}
+.section-menu{
+  background-color:#382c1e;
+  margin: 0 210px 0 210px;
+  border-radius: 15px;
+  padding: 10px 10px 10px 10px;
+  
+  
+}
+
+.section-menu ul{
+  list-style: none;
+  
+}
+
+.section-menu li{
+  margin-left:100px ;
+  margin-right: 100px;
+}
+
+.section-menu  a, button{
+  color: #423627;
+  text-decoration: none;
+  font-size: 20px;
+  background: none;
+  border: none;
+}
+
+
+.section-menu a:hover, button:hover{
+  color: #fffbf4;
+  background-color: #463726;
+  border-radius: 5px;
+  
+}
+
+
+.section-menu .carritoCar{
+  background-color: #645749a8;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-radius: 10px;
+
+}
+.section-menu .carritoCar:hover{
+  background-color: azure;
+}
+
+.carritoCar a:hover{
+  background-color: transparent;
+  color:#463726;
+}
+.carritoCar a{
+  color: #fef9ee;
+}
+
+
+
+
+
+
+
