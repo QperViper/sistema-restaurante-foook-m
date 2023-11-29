@@ -315,11 +315,7 @@ class Interfaz (object):
 
 
 
-    def Eliminar_todo(self):
-        
-        print()
-        print()
-
+    def Eliminar_todo(self):      
         self.lista1.delete(0, "end")
         self.lista1.insert(0, "")
         
